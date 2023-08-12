@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+body{
+	background:linear-gradient(lightpink, lightskyblue);
+}
+p{ 
+	color: lightcyan;
+	font-size: 50px;
+	text-align: center;
+font-family: 'Handjet', cursive;
+}
+table{
+	border: double 2px blue;
+	font-size: 24px;
+	width: 50%;
+	border-collapse: separate;
+	margin: auto;
+}
+th,td{ border: solid 1px blueviolet;
+width: 25%;
+}
+tr:hover{
+	background-color: grey;
+
+}
+td:hover{ 
+	text-align: center;
+	background-image: url(https://th.bing.com/th/id/R.47f7dbba63c18ee9d27a0027f0d411c6?rik=0WNVHZ3fbAB0jw&pid=ImgRaw&r=0);
+background-size: cover;
+font-size: 1.5em;
+color: white;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+tr:nth-child(even){
+	background-color: blueviolet;
+}
+.gg{
+
+border-color: orange, red;
+vertical-align: bottom;
+}
+
+caption{
+	font-family: cursive;
+	height: 2cm;
+	font-weight: 900;
+	padding-top: 1.5cm;
+	text-transform: uppercase;
+	background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+}

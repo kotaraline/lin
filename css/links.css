@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Lobster&family=Oswald&family=Pacifico&family=Press+Start+2P&family=Raleway:wght@300&display=swap');
+
+body{
+	background: lavender;
+}
+
+p{
+	font-size: 100px;
+	color: violet;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 0 0 10px blueviolet;
+
+
+}
+
+.aa{
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.aa:visited{
+	color: blueviolet;
+
+}
+
+.aa:active{
+	box-shadow: 0 0 20px palegreen;
+
+}
+
+.aa:hover{
+	text-shadow: 0 0 20px darkcyan;
+}
+
+.a1{
+	width: 20%;
+}
+
+.a2{
+	width: 200px;
+	height: 75px;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	border-radius: 50%;
+	background-color: red;
+	border: orchid;
+}
+
+.a2:hover{
+	color: red;
+	border-color: olivedrab;
+	box-shadow: 0 0 20px lavender;
+   transform: translate(10px, -10px);}
+
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: blueviolet;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #d923ab;
+	background:linear-gradient(to bottom, #ff54aa 5%, #42136b 100%);
+	background-color:#ff54aa;
+	border-radius:6px;
+	border:1px solid #d640b0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #42136b 5%, #ff54aa 100%);
+	background-color:#42136b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
